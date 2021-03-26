@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.App {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.App_block {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.list{
+    display: block;
+}
+.list:nth-child(odd){
+    background-color: lightblue ;
+}
+.date{
+    background-color: cornflowerblue ;
+    display: inline-block;
+    font-weight: bold;
+}
+.total{
+    background-color: darkslateblue;
+    display: inline-block;
+    font-weight: bold;
+}
